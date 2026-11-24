@@ -1,0 +1,38 @@
+{
+  "basis": "Fictional planning data for the public demonstration.",
+  "hasWorkbook": false,
+  "statuses": {"planned": "Explicit equipment route"},
+  "stages": [{"id": "S1", "label": "S1", "note": "Optical measurement"}],
+  "stageCoverage": [{
+    "id": "S1", "planned": 1, "conditional": 0, "covered": 1, "newCandidates": 1, "total": 1,
+    "allVariantsPlanned": 1, "allVariantsConditional": 0, "allVariantsCovered": 1
+  }],
+  "assays": [{
+    "id": "absorbance-reference",
+    "stage": "S1",
+    "status": "planned",
+    "stageStatus": "planned",
+    "firmStage": "S1",
+    "validated": false,
+    "deviceGroups": ["Visible spectrophotometer"],
+    "steps": [{
+      "number": 1,
+      "origin": "catalog",
+      "step": "Compare the instrument result with the certified reference value.",
+      "devices": ["Visible spectrophotometer"],
+      "stage": "S1",
+      "stageStatus": "planned",
+      "firmStage": "S1",
+      "status": "planned",
+      "note": "Illustrative reference measurement."
+    }]
+  }],
+  "devices": [{
+    "id": "visible-spectrophotometer",
+    "name": "Visible spectrophotometer",
+    "stage": "S1",
+    "stageStatus": "planned",
+    "firmStage": "S1",
+    "status": "planned"
+  }]
+}

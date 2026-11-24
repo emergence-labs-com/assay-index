@@ -1,0 +1,6 @@
+.env*
+.vercel/
+dist/
+node_modules/
+.vercel
+data/assay-plan.xlsx

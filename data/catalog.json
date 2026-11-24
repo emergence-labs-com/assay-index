@@ -1,0 +1,25 @@
+{
+  "categories": {
+    "analytical": "Analytical chemistry"
+  },
+  "modalities": {
+    "reference": "Reference materials"
+  },
+  "assays": [
+    {
+      "id": "absorbance-reference",
+      "name": "Visible Absorbance Reference",
+      "category": "analytical",
+      "drugTypes": ["reference"],
+      "tagline": "Compare a certified optical reference with its expected absorbance.",
+      "tests": ["Absorbance"],
+      "instruments": [{"name": "Visible spectrophotometer", "vendor": "Generic", "role": "Measure absorbance"}],
+      "consumables": [],
+      "steps": ["Compare the instrument result with the certified reference value."],
+      "providers": [],
+      "marketNote": "",
+      "capacityNote": "",
+      "sources": []
+    }
+  ]
+}
